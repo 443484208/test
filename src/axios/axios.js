@@ -7,7 +7,7 @@ axios.defaults.withCredentials=true;
  
 // axios初始化：延迟时间，主路由地址
 let instance = axios.create({
-  baseURL: 'https://easy-mock.com/mock/5b7bb6b9d02c1e7f50b4102f/example/',
+  // baseURL: 'https://easy-mock.com/mock/5b7bb6b9d02c1e7f50b4102f/example/',
   timeout: 10000,
 });
  

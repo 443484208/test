@@ -2,9 +2,10 @@
 import axios from './axios.js'
 var configType=false;
 var configApi=configType==true?'6':'7';
+var agent='/agent/';
 console.log(axios)
 const loginApi = {
-	login: configApi + 'login',
+	login: agent + 'login',
 	addUSer: configApi + 'addUSer',
 	search: configApi+ 'search',
 	article: configApi + 'wz/article',
